@@ -1,27 +1,27 @@
 {
-    "name": "stolkom/sypexgeo",
-    "description": "Supports GeoIP services (sypexgeo.net).",
-    "keywords": ["laravel", "laravel 5", "geoip", "location", "geolocation"],
-	"license": "BSD 2-Clause",
-    "authors": [
-        {
-            "name": "Igor Prokopev",
-            "email": "develop@s-tolkom.ru"
-        }
-    ],
-    "require": {
-        "php": ">=5.4.0"
-    },
-    "autoload": {
-        "psr-4": {
-          "Scriptixru\\SypexGeo\\": "src/Scriptixru/SypexGeo"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Scriptixru\\SypexGeo\\SypexGeoServiceProvider"
-            ]
-        }
-    }
+	"name": "stolkom/sypexgeo",
+	"description": "Supports GeoIP services (sypexgeo.net).",
+	"keywords": ["laravel", "laravel 5", "geoip", "location", "geolocation"],
+	"license": "BSD-2-Clause",
+	"authors": [
+		{
+			"name": "Igor Prokopev",
+			"email": "develop@s-tolkom.ru"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-4": {
+		  "Scriptixru\\SypexGeo\\": "src/Scriptixru/SypexGeo"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Scriptixru\\SypexGeo\\SypexGeoServiceProvider"
+			]
+		}
+	}
 }
