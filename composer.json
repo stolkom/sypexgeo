@@ -1,12 +1,12 @@
 {
-    "name": "scriptixru/sypexgeo",
+    "name": "stolkom/sypexgeo",
     "description": "Supports GeoIP services (sypexgeo.net).",
     "keywords": ["laravel", "laravel 5", "geoip", "location", "geolocation"],
 	"license": "BSD 2-Clause",
     "authors": [
         {
-            "name": "Varchak Valery",
-            "email": "scriptixru@gmail.com"
+            "name": "Igor Prokopev",
+            "email": "develop@s-tolkom.ru"
         }
     ],
     "require": {
