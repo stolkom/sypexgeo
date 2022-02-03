@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Валерий
- * Date: 11.04.2015
- * Time: 8:27
- */
 
 namespace Scriptixru\SypexGeo;
 
