@@ -18,9 +18,6 @@
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-stable"
-        },
         "laravel": {
             "providers": [
                 "Scriptixru\\SypexGeo\\SypexGeoServiceProvider"
