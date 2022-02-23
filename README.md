@@ -7,24 +7,28 @@ The data comes from a database and from service http://sypexgeo.net
 
 ## Installation
 
-- [SypexGeo for Laravel 5 on Packagist](https://packagist.org/packages/scriptixru/sypexgeo)
-- [SypexGeo for Laravel 5 on GitHub](https://github.com/scriptixru/sypexgeo)
+- [SypexGeo for Laravel 5 on Packagist](https://packagist.org/packages/stolkom/sypexgeo)
+- [SypexGeo for Laravel 5 on GitHub](https://github.com/stolkom/sypexgeo)
 
-To get the latest version of SypexGeo simply require it in your `composer.json` file.
+To get the latest version of stolkom/sypexgeo use the command:
 
 ~~~
-"scriptixru/sypexgeo": "0.2.*@dev"
+composer require stolkom/sypexgeo
 ~~~
 
-You'll then need to run `composer install` to download it and have the autoloader updated.
+Or require it in your `composer.json` file.
+
+~~~
+"stolkom/sypexgeo": "^1.0"
+~~~
+
+And than run `composer install` to download it and have the autoloader updated.
 
 Once GeoIP is installed you need to register the service provider with the application. Open up `config/app.php` and find the `providers` key.
 
 ~~~php
 'providers' => array(
-
     'Scriptixru\SypexGeo\SypexGeoServiceProvider',
-
 )
 ~~~
 
@@ -32,9 +36,7 @@ GeoIP also ships with a facade which provides the static syntax for creating col
 
 ~~~php
 'aliases' => array(
-
     'SypexGeo' => 'Scriptixru\SypexGeo\SypexGeoFacade',
-
 )
 ~~~
 
@@ -158,7 +160,7 @@ In the case that a location is not found the fallback location will be returned 
 
 ### [Scriptix](http://www.scriptix.ru)
 
-- **Database Service**: To use the database version of SypexGeo services download the `SxGeoCityMax.dat` from (vendor/scriptixru/sypexgeo/scr/Scriptixru/SypexGeo) and extract it to `/database/sypexgeo/`. And that's it.
+- **Database Service**: To use the database version of SypexGeo services download the `SxGeoCityMax.dat` from (vendor/stolkom/sypexgeo/scr/Scriptixru/SypexGeo) and extract it to `/database/sypexgeo/`. And that's it.
 
 
 
